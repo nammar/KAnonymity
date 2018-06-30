@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Conversation name="StoreFrontServiceConversation" xmlns="http://www.w3.org/2002/02/wscl10">
+  <ConversationInteractions>
+    <Interaction interactionType="ReceiveSend" id="getLab1Results">
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab2Results">
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab3Results">
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab4Results" >
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab5Results" >
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab6Results" >
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab7Results" >
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab8Results" >
+    </Interaction>
+    <Interaction interactionType="ReceiveSend" id="getLab9Results" >
+    </Interaction>
+    <Interaction interactionType="Empty" id="Start" />
+    <Interaction interactionType="Empty" id="End" />
+  </ConversationInteractions>
+<ConversationTransitions>
+    <Transition>
+      <SourceInteraction href="getLab1Results"/>
+      <DestinationInteraction href="getLab3Results"/>
+    </Transition>    
+    <Transition>
+      <SourceInteraction href="getLab2Results"/>
+      <DestinationInteraction href="getLab3Results"/>
+    </Transition>    
+    <Transition>
+      <SourceInteraction href="getLab3Results"/>
+      <DestinationInteraction href="getLab4Results"/>
+    </Transition>   
+    <Transition>
+      <SourceInteraction href="getLab3Results"/>
+      <DestinationInteraction href="getLab5Results"/>
+    </Transition>   
+    <Transition>
+      <SourceInteraction href="getLab6Results"/>
+      <DestinationInteraction href="getLab5Results"/>
+    </Transition>  
+     <Transition>
+      <SourceInteraction href="getLab5Results"/>
+      <DestinationInteraction href="getLab7Results"/>
+    </Transition>  
+     <Transition>
+      <SourceInteraction href="getLab8Results"/>
+      <DestinationInteraction href="getLab7Results"/>
+    </Transition> 
+      <Transition>
+      <SourceInteraction href="getLab9Results"/>
+      <DestinationInteraction href="getLab7Results"/>
+    </Transition>
+ </ConversationTransitions>
+</Conversation>
+
+

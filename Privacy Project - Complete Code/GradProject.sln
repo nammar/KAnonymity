@@ -1,0 +1,179 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MainSite", "MainSite\", "{B0A2E8C9-303C-42F0-B4F8-DF07346B93FC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/MainSite"
+		Debug.AspNetCompiler.PhysicalPath = "MainSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MainSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MainSite"
+		Release.AspNetCompiler.PhysicalPath = "MainSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MainSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10807"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{4D7BB906-71D9-44F7-8DBE-4A6512BF4F06} = {4D7BB906-71D9-44F7-8DBE-4A6512BF4F06}
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A} = {DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}
+		{E39C745E-2D46-4B00-95A0-32EF58132A8D} = {E39C745E-2D46-4B00-95A0-32EF58132A8D}
+		{BE289A8E-1277-4461-B940-96364AEAD15B} = {BE289A8E-1277-4461-B940-96364AEAD15B}
+		{221B76C3-687C-48B0-AA4C-437A00489068} = {221B76C3-687C-48B0-AA4C-437A00489068}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebService1", "WebService1\", "{4D7BB906-71D9-44F7-8DBE-4A6512BF4F06}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebService1"
+		Debug.AspNetCompiler.PhysicalPath = "WebService1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebService1"
+		Release.AspNetCompiler.PhysicalPath = "WebService1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2596"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{221B76C3-687C-48B0-AA4C-437A00489068} = {221B76C3-687C-48B0-AA4C-437A00489068}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebService2", "WebService2\", "{BE289A8E-1277-4461-B940-96364AEAD15B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebService2"
+		Debug.AspNetCompiler.PhysicalPath = "WebService2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService2\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebService2"
+		Release.AspNetCompiler.PhysicalPath = "WebService2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService2\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2606"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{221B76C3-687C-48B0-AA4C-437A00489068} = {221B76C3-687C-48B0-AA4C-437A00489068}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebService3", "WebService3\", "{221B76C3-687C-48B0-AA4C-437A00489068}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebService3"
+		Debug.AspNetCompiler.PhysicalPath = "WebService3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService3\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebService3"
+		Release.AspNetCompiler.PhysicalPath = "WebService3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService3\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2609"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A} = {DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebService4", "WebService4\", "{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebService4"
+		Debug.AspNetCompiler.PhysicalPath = "WebService4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService4\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebService4"
+		Release.AspNetCompiler.PhysicalPath = "WebService4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService4\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2613"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebService5", "WebService5\", "{E39C745E-2D46-4B00-95A0-32EF58132A8D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebService5"
+		Debug.AspNetCompiler.PhysicalPath = "WebService5\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService5\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebService5"
+		Release.AspNetCompiler.PhysicalPath = "WebService5\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebService5\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2617"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A} = {DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF4FD1D8-E179-4AB5-AE7B-5AEC066EB416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A2E8C9-303C-42F0-B4F8-DF07346B93FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A2E8C9-303C-42F0-B4F8-DF07346B93FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A2E8C9-303C-42F0-B4F8-DF07346B93FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A2E8C9-303C-42F0-B4F8-DF07346B93FC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4D7BB906-71D9-44F7-8DBE-4A6512BF4F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7BB906-71D9-44F7-8DBE-4A6512BF4F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7BB906-71D9-44F7-8DBE-4A6512BF4F06}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7BB906-71D9-44F7-8DBE-4A6512BF4F06}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BE289A8E-1277-4461-B940-96364AEAD15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE289A8E-1277-4461-B940-96364AEAD15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE289A8E-1277-4461-B940-96364AEAD15B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE289A8E-1277-4461-B940-96364AEAD15B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{221B76C3-687C-48B0-AA4C-437A00489068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221B76C3-687C-48B0-AA4C-437A00489068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221B76C3-687C-48B0-AA4C-437A00489068}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{221B76C3-687C-48B0-AA4C-437A00489068}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD4DC40-46F6-4DAC-BC02-242CA7302A2A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E39C745E-2D46-4B00-95A0-32EF58132A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39C745E-2D46-4B00-95A0-32EF58132A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39C745E-2D46-4B00-95A0-32EF58132A8D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39C745E-2D46-4B00-95A0-32EF58132A8D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

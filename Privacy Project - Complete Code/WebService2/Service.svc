@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WS2_Implementation" CodeBehind="~/App_Code/WebService2.cs" %>
