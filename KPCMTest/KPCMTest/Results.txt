@@ -1,0 +1,36 @@
+Web Service 1, Method getLab1Results
+
+(1) Overall match,(Non-Mandatory): 
+Topic: K-Anon , Level: op 
+Client    Resource: get_lab_results , Domain: other services , Scope: GTE2 (K-Anon >= 2), Weight: 0.1 
+Service   Resource: get_lab_results , Domain: other services , Scope: GTE2 (K-Anon >= 2)
+
+(2) Overall match,(Non-Mandatory): 
+Topic: recipient , Level: data 
+Client    Resource: patient_id , Domain: government , Scope: total, Weight: 0.1 
+Service   Resource: patient_id , Domain: government , Scope: total
+
+(3) Overall mismatch,(Non-Mandatory): 
+Topic: recipient , Level: data 
+Client    Resource: test_results_EXP , Domain: government , Scope: total, Weight: 0.1 
+Service   Resource: test_results_PR , Domain: research , Scope: total
+
+(4) Overall mismatch,(Non-Mandatory): 
+Topic: recipient , Level: data 
+Client    Resource: test_results_PR , Domain: research , Scope: total, Weight: 0.1 
+Service   Resource: test_results_EXP , Domain: government , Scope: total
+
+(5) Overall mismatch,(Non-Mandatory): 
+
+
+(6) Overall mismatch,(Non-Mandatory): 
+
+
+(7) Overall mismatch,(Non-Mandatory): 
+
+
+(8) Overall mismatch,(Non-Mandatory): 
+
+
+We have met threshold set by client: Total Weight (of matched) 0.2 >= Threshold 0.2
+All mismatched items are non-mandatory. Now calling method...

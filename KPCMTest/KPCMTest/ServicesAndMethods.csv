@@ -1,0 +1,6 @@
+WS,Op,Param,Type,RefParam
+1,getLab1Results,patient_id,int,test_result
+2,getLab2Results,patient_id,int,test_result
+3,getLab3Results,patient_id,int,test_result
+4,getLab4Results,patient_id,int,test_result
+5,getLab5Results,patient_id,int,test_result

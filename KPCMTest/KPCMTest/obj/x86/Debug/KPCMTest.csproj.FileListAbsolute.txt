@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\bin\Debug\KPCM.sdf
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\bin\Debug\KPCM.mdf
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\bin\Debug\KPCM_log.ldf
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\bin\Debug\KPCMTest.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\bin\Debug\KPCMTest.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\bin\Debug\KPCMTest.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\obj\x86\Debug\KPCMTest.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\obj\x86\Debug\KPCMTest.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\KPCMTest\KPCMTest\obj\x86\Debug\KPCMTest.csprojResolveAssemblyReference.cache

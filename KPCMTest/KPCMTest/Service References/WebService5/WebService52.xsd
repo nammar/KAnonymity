@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50589/WebService5.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:50589/WebService5.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="getLab5Results">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patient_id" type="xs:int" />
+        <xs:element minOccurs="0" name="test_results" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getLab5ResultsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getLab5ResultsResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="test_results" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getPrivacyPolicyArray">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WS_ID" type="xs:int" />
+        <xs:element minOccurs="0" name="Target_WS_ID" type="xs:int" />
+        <xs:element minOccurs="0" name="strTargetMethodName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="gid" type="q1:guid" />
+        <xs:element minOccurs="0" name="strIncentive" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getPrivacyPolicyArrayResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="getPrivacyPolicyArrayResult" nillable="true" type="q2:ArrayOfArrayOfstring" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="gid" type="q3:guid" />
+        <xs:element minOccurs="0" name="strIncentive" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+WS ,operation ,resource ,W,M,R ,T ,L ,D ,S
+1,getLab1Resuts,get_lab_results ,0.1,No ,1,recipient ,data ,public ,total
+1,getLab1Results,get_lab_results ,0.1,Yes ,3,K-Anon ,op ,other services ,GTE2
+1,getLab1Results,patient_id ,0.1,Yes ,1,recipient ,data ,government ,total
+1,getLab1Results,test_results_EXP ,0.1,No ,1,recipient ,data ,government ,total
+1,getLab1Results,test_results_PR ,0.1,Yes ,1,recipient ,data ,research ,total
+2,getLab2Results ,get_lab_results ,0.2,yes ,2,recipient ,op ,public ,partial
+2,getLab2Results ,get_lab_results ,0.1,yes ,3,K-Anon ,op ,other services ,GTE1
+3,getLab3Results ,get_lab_results ,0.2,yes ,2,recipient ,op ,public ,partial
+3,getLab3Results ,get_lab_results ,0.1,yes ,3,K-Anon ,op ,other services ,GTE4
